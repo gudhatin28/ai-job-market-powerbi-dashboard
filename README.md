@@ -43,4 +43,13 @@ Source dataset contains AI and Data Science job listings including:
 
 ## Preview
 
-![Dashboard Preview](images/overview.png)
+## Dashboard Preview
+
+### Job Market Overview
+![Overview](overview.png)
+
+### Salary Analysis
+![Salary Analysis](Salary Analysis.png)
+
+### Global Job Market Trends
+![Global Trends](Global Trends.png)
