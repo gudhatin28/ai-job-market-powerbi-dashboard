@@ -43,4 +43,4 @@ Source dataset contains AI and Data Science job listings including:
 
 ## Preview
 
-![Dashboard Preview](images/dashboard_preview.png)
+![Dashboard Preview](images/overview.png)
