@@ -12,6 +12,23 @@ This project demonstrates more than dashboard formatting. It shows the workflow 
 
 The dataset contains **3,755 anonymous salary records from 2020–2023**. Because these are self-reported salary observations rather than a census of job postings, record counts are treated as **dataset representation**, not market-wide job demand.
 
+## Key Findings
+
+- **Typical reported compensation was $135K:** median salary was **$135,000**, while mean salary was approximately **$137,570**, across the 3,755 observations.
+- **Experience was strongly associated with compensation:** executive-level records averaged about **$194.9K**, compared with about **$78.5K** for entry-level records — roughly a **2.5× difference** in the available sample.
+- **Senior-level professionals dominate the sample:** **2,516 of 3,755 records (67%)** were senior-level, so overall salary results should not be interpreted as representative of an evenly distributed workforce.
+- **Data Engineer was the most represented title:** **1,040 records**, followed by **Data Scientist (840)** and **Data Analyst (612)**. These counts describe representation in the dataset, not market-wide hiring demand.
+- **Work arrangements were split primarily between on-site and fully remote:** the dataset contains **1,923 on-site**, **1,643 fully remote**, and **189 hybrid** salary observations.
+- **Medium-sized companies dominate the sample:** **3,153 records (84%)** came from medium-sized companies, compared with 454 large-company and 148 small-company records.
+
+## Business Takeaways
+
+1. **Experience is the clearest compensation segmentation in this sample.** Salary comparisons are more useful when separated by career level rather than relying only on one overall average.
+2. **Sample composition matters.** Senior-level and medium-company observations are heavily overrepresented, so headline averages need context before being used for compensation decisions.
+3. **Role comparisons need minimum sample sizes.** A high average salary for a rare title can be misleading; the supporting Python analysis therefore applies a minimum-record threshold when ranking roles.
+4. **Remote-work comparisons should be treated as descriptive, not causal.** Differences in salary may also reflect experience, geography, company size, or role mix.
+5. **This dataset is useful for exploratory compensation benchmarking, not for claiming total job-market demand.** The dashboard intentionally distinguishes salary-record representation from hiring-volume data.
+
 ## Business Questions
 
 1. How does compensation differ across experience levels?
