@@ -19,12 +19,12 @@ The version used in this dashboard contains **3,755 salary records** covering 20
 - How do remote, hybrid, and on-site work arrangements compare?
 - How does company size relate to reported salary?
 - Which countries appear most frequently in the dataset?
-- How did reported salaries and role distribution change over time?
+- How did reported salaries and role representation change over time?
 
 ## Dashboard Pages
 
 ### 1. Job Market Overview
-Overview of total records, average salary, role demand, and compensation by experience level.
+Overview of total records, average salary, role representation, and compensation by experience level.
 
 ### 2. Salary Insights
 Analysis of salary distribution, top-paying roles, company size, and experience-level compensation.
@@ -57,6 +57,8 @@ The dataset includes:
 - `company_location`
 - `company_size`
 
+See [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) for field definitions and interpretation notes.
+
 ## Dashboard Preview
 
 ### Job Market Overview
@@ -70,4 +72,4 @@ The dataset includes:
 
 ## Data note
 
-Salary submissions are anonymous and self-reported, so the dashboard should be interpreted as analysis of the available survey records rather than a complete representation of the entire global labor market.
+Salary submissions are anonymous and self-reported, so the dashboard should be interpreted as analysis of the available records rather than a complete representation of the entire global labor market. Counts by job title show representation in this dataset, not official market-wide job demand.
