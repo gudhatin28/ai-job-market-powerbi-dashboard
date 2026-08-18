@@ -1,47 +1,61 @@
 # AI & Data Science Job Market Dashboard
 
-This project analyzes the global AI and Data Science job market using Power BI.
+Power BI analysis of real-world AI, ML, and Data Science salary data, focused on compensation, experience level, remote work, company size, job role, and geography.
 
-The dashboard explores:
+## Why this dataset
 
-- AI job demand by role
-- Salary trends across experience levels
-- Top paying AI roles
-- Salary distribution
-- Company size vs salary
-- Remote vs hybrid vs onsite jobs
-- Global distribution of AI jobs
-- AI job growth over time
+The project uses a real-world salary dataset derived from anonymous salary submissions collected by **aijobs.net** from professionals working in AI, Machine Learning, Data Science, and related fields. The underlying salary data is published openly for salary research and career-market analysis.
 
-## Tools Used
-- Power BI
-- Data Visualization
-- Data Analysis
-- CSV Dataset
+**Original data source:** aijobs.net Global AI/ML/Data Science Salary Index  
+**Source repository:** https://github.com/foorilla/ai-jobs-net-salaries  
+**License:** CC0 / Public Domain
+
+The version used in this dashboard contains **3,755 salary records** covering 2020–2023.
+
+## Business questions explored
+
+- Which AI and Data Science roles have the highest reported salaries?
+- How does compensation vary by experience level?
+- How do remote, hybrid, and on-site work arrangements compare?
+- How does company size relate to reported salary?
+- Which countries appear most frequently in the dataset?
+- How did reported salaries and role distribution change over time?
 
 ## Dashboard Pages
 
 ### 1. Job Market Overview
-Key metrics including total jobs, average salary, most in-demand roles, and salary by experience level.
+Overview of total records, average salary, role demand, and compensation by experience level.
 
 ### 2. Salary Insights
-Deep analysis of salary distribution, highest paying roles, and salary growth trends.
+Analysis of salary distribution, top-paying roles, company size, and experience-level compensation.
 
 ### 3. Global Trends
-Remote work distribution, job growth over time, and global job market distribution.
+Analysis of employee/company geography, remote-work distribution, and changes across work years.
 
-## Dataset
-Source dataset contains AI and Data Science job listings including:
+## Tools & Skills
 
-- Job Title
-- Salary (USD)
-- Experience Level
-- Company Size
-- Work Year
-- Remote Work Percentage
-- Location
+- Power BI
+- Data Cleaning & Transformation
+- Data Analysis
+- Data Visualization
+- Dashboard Development
+- Business Intelligence
 
-## Preview
+## Dataset fields
+
+The dataset includes:
+
+- `work_year`
+- `experience_level`
+- `employment_type`
+- `job_title`
+- `salary`
+- `salary_currency`
+- `salary_in_usd`
+- `employee_residence`
+- `remote_ratio`
+- `company_location`
+- `company_size`
 
 ## Dashboard Preview
 
@@ -53,3 +67,7 @@ Source dataset contains AI and Data Science job listings including:
 
 ### Global Job Market Trends
 ![Global Trends](Global_Trends.png)
+
+## Data note
+
+Salary submissions are anonymous and self-reported, so the dashboard should be interpreted as analysis of the available survey records rather than a complete representation of the entire global labor market.
